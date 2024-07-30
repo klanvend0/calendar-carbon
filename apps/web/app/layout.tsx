@@ -77,6 +77,34 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             }}
           />
         )}
+        <title>Bir Randevu Planlayın | CarbonSmart 🌿</title>{" "}
+        <meta name="title" content="Bir Randevu Planlayın | CarbonSmart 🌿" />{" "}
+        <meta
+          name="description"
+          content="Kurumsal Karbon Ayak İzi Yönetimi Yazılımı ile süreçlerinizi verimli hale getirin. Yeşil Dönüşümünüzü Hızlandırın, Geleceğinizi Yeşil Finans ile Şekillendirin."
+        />
+        <meta property="og:type" content="website" />{" "}
+        <meta property="og:url" content="https://cal.carbonsmart.io/" />{" "}
+        <meta property="og:title" content="Bir Randevu Planlayın | CarbonSmart 🌿" />{" "}
+        <meta
+          property="og:description"
+          content="Kurumsal Karbon Ayak İzi Yönetimi Yazılımı ile süreçlerinizi verimli hale getirin. Yeşil Dönüşümünüzü Hızlandırın, Geleceğinizi Yeşil Finans ile Şekillendirin."
+        />{" "}
+        <meta
+          property="og:image"
+          content="https://cs-mail-templete.s3.eu-central-1.amazonaws.com/cal_meta.png"
+        />
+        <meta property="twitter:card" content="summary_large_image" />{" "}
+        <meta property="twitter:url" content="https://cal.carbonsmart.io/" />{" "}
+        <meta property="twitter:title" content="Bir Randevu Planlayın | CarbonSmart 🌿" />{" "}
+        <meta
+          property="twitter:description"
+          content="Kurumsal Karbon Ayak İzi Yönetimi Yazılımı ile süreçlerinizi verimli hale getirin. Yeşil Dönüşümünüzü Hızlandırın, Geleceğinizi Yeşil Finans ile Şekillendirin."
+        />{" "}
+        <meta
+          property="twitter:image"
+          content="https://cs-mail-templete.s3.eu-central-1.amazonaws.com/cal_meta.png"
+        />
         <style>{`
           :root {
             --font-inter: ${interFont.style.fontFamily.replace(/\'/g, "")};
